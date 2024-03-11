@@ -1,6 +1,12 @@
 .h-line {
-    margin: 0 auto;
-    width: 150px;
-    height: 1.7px;
-  }
-  
+  margin: 0 auto;
+  width: 150px;
+  height: 1.7px;
+}
+
+.box:hover {
+  border-top-color: #2ec1ac !important;
+  transform: scale(1.03);
+  transition: all 0.3s;
+  cursor: pointer;
+}
